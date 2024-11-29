@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomDrawingApp", "RandomDrawingApp\RandomDrawingApp.csproj", "{804DAE0B-7A64-4830-A359-A5917002F39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomDrawingApi", "RandomDrawingApi\RandomDrawingApi.csproj", "{97CCB302-F69C-4677-A21C-FC27260A9731}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{804DAE0B-7A64-4830-A359-A5917002F39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804DAE0B-7A64-4830-A359-A5917002F39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804DAE0B-7A64-4830-A359-A5917002F39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804DAE0B-7A64-4830-A359-A5917002F39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CCB302-F69C-4677-A21C-FC27260A9731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CCB302-F69C-4677-A21C-FC27260A9731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CCB302-F69C-4677-A21C-FC27260A9731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CCB302-F69C-4677-A21C-FC27260A9731}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3B34F75-F00E-4EF5-BD81-F53911080F7D}
+	EndGlobalSection
+EndGlobal
