@@ -8,20 +8,25 @@ namespace RandomDrawingApi.Controllers
     [ApiController]
     public class DrawController : ControllerBase
     {
+        private Random rnd = new Random();
         [HttpGet("draw")]
         public ActionResult Draw()
         {
-
+            var random_color=GetRandomColor();
         }
 
-        private byte[] GetRandomShape()
+        private int[] GetRandomShape()
         {
-
+            return
+            [
+                rnd.Next(350),
+                rnd.Next(350),
+                rnd.Next(350)
+            ];
         }
 
         private KnownColor GetRandomColor()
         {
-            Random rnd=new Random();
             var colors = Enum.GetValues(typeof(KnownColor));
             return (KnownColor)colors.GetValue(rnd.Next(colors.Length));
         }

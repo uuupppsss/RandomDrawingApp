@@ -21,7 +21,7 @@ namespace RandomDrawingApp
         public event PropertyChangedEventHandler? PropertyChanged;
         Graphics graphics;
         private Bitmap bitmap;
-        ImageConverter converter;
+        ImageConverter converter=new ImageConverter();
         public byte[] Bitmap
         {
             get => (byte[])converter.ConvertTo(bitmap, typeof(byte[]));
